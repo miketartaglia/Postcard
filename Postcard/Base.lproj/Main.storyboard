@@ -115,6 +115,15 @@
                                     <action selector="resetButton:" destination="lwE-nx-rSO" eventType="touchUpInside" id="9UC-eT-pfP"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLJ-lj-JMj">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="201" width="253" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -125,6 +134,7 @@
                                 <exclude reference="7Kh-wM-VTm"/>
                                 <exclude reference="65T-NG-ANp"/>
                                 <exclude reference="eNL-XG-utQ"/>
+                                <exclude reference="VLJ-lj-JMj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -135,6 +145,7 @@
                                 <include reference="7Kh-wM-VTm"/>
                                 <include reference="65T-NG-ANp"/>
                                 <include reference="eNL-XG-utQ"/>
+                                <include reference="VLJ-lj-JMj"/>
                             </mask>
                         </variation>
                     </view>
@@ -143,6 +154,7 @@
                         <outlet property="enterNameTextField" destination="9aj-1i-dem" id="4ab-3d-E8b"/>
                         <outlet property="mailButton" destination="65T-NG-ANp" id="SvJ-gd-PLM"/>
                         <outlet property="messageLabel" destination="SEO-So-q7Q" id="ySV-n7-F7e"/>
+                        <outlet property="nameLabel" destination="VLJ-lj-JMj" id="nYH-t5-9Om"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t9R-Fv-fGF" userLabel="First Responder" sceneMemberID="firstResponder"/>
